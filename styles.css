@@ -1,0 +1,65 @@
+/* General body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  background-image: url("https://media.licdn.com/dms/image/D5612AQFMu3lrn5R3lA/article-cover_image-shrink_720_1280/0/1660589559824?e=2147483647&v=beta&t=yj_uo7TKFJu8_fCQqG1gll70LfVy-VFPzNXRbi2B4pY");
+  background-size: cover; /* Ensure the image covers the entire background */
+  color: #ffffff; /* Make text white for clarity */
+}
+
+/* Header styling */
+h1 {
+  margin: 20px 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff; /* Crisp white for the title */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add subtle shadow for visibility */
+}
+
+/* Button styling */
+button {
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #00897b; /* Rich teal for buttons */
+  color: #ffffff; /* White text for good readability */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for a raised look */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #00796b; /* Slightly darker teal on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Counter display styling */
+#count {
+  font-size: 48px;
+  margin: 20px 0;
+  color: #4dd0e1; /* Light cyan for attention */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Enhance visibility */
+}
+
+/* Previous step counts container */
+#prev {
+  margin: 30px auto;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+  border-radius: 8px;
+  color: #ffffff; /* White for visibility */
+  max-width: 400px;
+  text-align: left;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle depth effect */
+}
+
+/* Styling for each log entry */
+#prev p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #4dd0e1; /* Light cyan for step logs */
+}
